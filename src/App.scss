@@ -1,0 +1,66 @@
+.picker-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .picker-box {
+        width: 550px;
+        padding: 20px;
+        
+        background-color: rgba(255,255,255,0.6);
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        border: 4px solid rgba(255,255,255,0.7);
+        border-radius: 15px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        .picker-title {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 35px;
+            letter-spacing: 2px;
+            color: black;
+        }
+        
+        .picker-inputs {
+            width: 75%;
+            padding-top: 30px;
+            display: flex;
+            
+            .palette, .showColorInput, .copyBtn {
+                display: block;
+                height: 50px;
+                border-radius: 5px;
+                background-color: white;
+            }
+    
+            .palette, .copyBtn {
+                padding: 3px;
+                width: 50px;
+            }
+    
+            .copyBtn {
+                margin-left: 3px;
+                box-shadow: 0 0 13px rgba(0,0,0,0.3);
+                
+                transition-duration: .5s;
+                &:focus {
+                    transform: scale(0.8);
+                }
+            }
+    
+            .showColorInput {
+                padding: 10px;
+                margin-left: auto;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+

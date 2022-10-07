@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: Consolas, sans-serif;
+}
