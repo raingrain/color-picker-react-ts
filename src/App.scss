@@ -89,6 +89,7 @@
             .copyBtn {
                 margin-left: 3px;
                 box-shadow: 0 0 13px rgba(0,0,0,0.3);
+                cursor: copy;
                 
                 transition-duration: .5s;
                 &:focus {
